@@ -2,6 +2,7 @@ set nocompatible        " use vim as vim, put at the very start
 set fenc=utf-8          " character encoding for file of the buffer
 filetype plugin indent on      " enable filetype plugin
 syntax enable           " enable syntax hl
+color desert
 set confirm             " raise a confirm dialog for changed buffer
 set pastetoggle=<F6>    " when pasting something in, don't indent
 
