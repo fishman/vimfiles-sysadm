@@ -4,6 +4,13 @@ filetype plugin indent on      " enable filetype plugin
 syntax enable           " enable syntax hl
 color desert
 set confirm             " raise a confirm dialog for changed buffer
+set hidden
+set wildmenu
+set visualbell
+set laststatus=2
+set hlsearch
+set noerrorbells
+set showmatch
 set pastetoggle=<F6>    " when pasting something in, don't indent
 
 " forget to use sudo to launch vim
