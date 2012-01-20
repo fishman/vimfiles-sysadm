@@ -14,3 +14,26 @@ imap <M-o> <Esc>o
 map <leader>cd :cd %:p:h<cr>
 
 call pathogen#infect()
+
+""""""""""""""""""""""""""""""
+" => NERD_commenter.vim
+""""""""""""""""""""""""""""""
+let g:NERDComLineMap = ''
+let g:NERDSpaceDelims = 1
+
+""""""""""""""""""""""""""""""
+" => NERD_tree.vim
+""""""""""""""""""""""""""""""
+"noremap <C-E><C-E> :NERDTreeToggle<CR>
+nmap <silent> <F3> :execute 'NERDTreeToggle ' . fnameescape(getcwd())<CR>
+let g:NERDTreeHijackNetrw = 0
+
+""""""""""""""""""""""""""""""
+" => ctrlp.vim
+""""""""""""""""""""""""""""""
+noremap <silent> <leader>t :CtrlP<CR>
+
+""""""""""""""""""""""""""""""
+" => tagbar.vim
+""""""""""""""""""""""""""""""
+nnoremap <silent> <F4> :TagbarToggle<CR>
