@@ -40,6 +40,7 @@ let g:NERDTreeHijackNetrw = 0
 " => ctrlp.vim
 """"""""""""""""""""""""""""""
 noremap <silent> <leader>t :CtrlP<CR>
+let g:ctrlp_working_path_mode = 2
 
 """"""""""""""""""""""""""""""
 " => tagbar.vim
