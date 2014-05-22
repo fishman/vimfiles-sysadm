@@ -20,6 +20,9 @@ let mapleader = ","     " set mapleader, then <leader> will be ,
 let g:mapleader = ","
 let maplocalleader = ","     " set mapleader, then <leader> will be ,
 
+set nu
+set rnu
+
 imap <M-o> <Esc>o
 imap jk <Esc>
 
