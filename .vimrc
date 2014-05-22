@@ -16,7 +16,14 @@ set pastetoggle=<F6>    " when pasting something in, don't indent
 " forget to use sudo to launch vim
 command! -bar -nargs=0 Sudow :silent exe "w !sudo tee % > /dev/null" | silent edit!
 
+let mapleader = ","     " set mapleader, then <leader> will be ,
+let g:mapleader = ","
+let maplocalleader = ","     " set mapleader, then <leader> will be ,
+
 imap <M-o> <Esc>o
+imap jk <Esc>
+
+map <leader>bw :bw<cr>
 
 " switch to current dir
 map <leader>cd :cd %:p:h<cr>
